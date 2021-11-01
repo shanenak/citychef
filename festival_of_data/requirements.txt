@@ -78,7 +78,7 @@ pyrsistent==0.17.3
 python-dateutil==2.8.1
 pytz==2021.1
 # pywin32==301
-pywinpty==1.1.4
+# pywinpty==1.1.4
 pyzmq==22.3.0
 requests==2.26.0
 # Rtree @ file:///C:/Users/Shannon.Nakamura/Downloads/Rtree-0.9.7-cp39-cp39-win_amd64.whl
