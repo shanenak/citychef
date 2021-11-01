@@ -31,11 +31,11 @@ networks = {
 
 
 def join_dataframe(file: str):
-    path_to_city="C:/Users/Shannon.Nakamura/citychef/festival_of_data/city_A/"
+    path_to_city="https://github.com/shanenak/citychef/tree/master/festival_of_data/city_A"
     A_df = gpd.read_file(path_to_city+networks[file]['path'])
     A_df['city']='A'
 
-    path_to_city="C:/Users/Shannon.Nakamura/citychef/festival_of_data/city_B/"
+    path_to_city="https://github.com/shanenak/citychef/tree/master/festival_of_data/city_B"
     B_df = gpd.read_file(path_to_city+networks[file]['path'])
     B_df['city']='B'
 
